@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Figtree:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+	font-family: Figtree;
+	font-size: 2.5vmin;
+	transition: 1s;
+}
+
+body {
+	background: var(--Yellow, #f4d04e);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 0.5vmin solid black;
+	width: 50vmin;
+	height: 78vmin;
+	padding: 2.5vmin;
+	background: white;
+	box-shadow: 2.5vmin 2.5vmin 0vmin -1vmin rgba(0, 0, 0, 1);
+	-webkit-box-shadow: 2.5vmin 2.5vmin 0vmin -1vmin rgba(0, 0, 0, 1);
+	-moz-box-shadow: 2.5vmin 2.5vmin 0vmin -1vmin rgba(0, 0, 0, 1);
+	border-radius: 2.5vmin;
+}
+
+.card:hover {
+	box-shadow: 5vmin 5vmin 0vmin -1vmin rgba(0, 0, 0, 1);
+	-webkit-box-shadow: 5vmin 5vmin 0vmin -1vmin rgba(0, 0, 0, 1);
+	-moz-box-shadow: 5vmin 5vmin 0vmin -1vmin rgba(0, 0, 0, 1);
+	cursor: pointer;
+}
+
+.card > img {
+	width: 100%;
+}
+
+.name {
+	padding: 1vmin;
+	background: var(--Yellow, #f4d04e);
+	width: 20%;
+	text-align: center;
+	border-radius: 1vmin;
+	font-weight: bolder;
+}
+
+h1 {
+	font-size: 4vmin;
+}
+
+.usern {
+	display: flex;
+	align-items: center;
+	font-weight: 900;
+}
+
+.desk {
+	color: gray;
+}
+
+.usern > p {
+	padding-left: 2vmin;
+}
+
+.usern > img {
+	width: 5vmin;
+}
+
+.tuto:hover {
+	color: #f4d04e;
+	cursor: pointer;
+}
